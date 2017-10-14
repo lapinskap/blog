@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Page 2</title>
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+	<script src="js.js"></script>
+	<style> 
+		.panel 
+		{
+			width:80%;
+		}
+	</style>
+
+</head>
+<body>
+<div class="container">
+
+	  <div class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Grupowanie elementów menu ZEBY SIE NIC NIE POPSULO-->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">O mnie</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-left" role="search"> <!-- Wyszukiwarka: 'form' trzyma razem inputa i buttona-->
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Szukaj">
+        </div>
+        <button type="submit" class="btn btn-default">Szukaj</button>
+      </form>
+
+      <ul class="nav navbar-nav navbar-right"> <!-- prawa strona gornego menu, BO MIALO BYC LOGOWANIE :( -->
+        <li><a href="#">Logowanie</a></li> <!--po zalogowaniu ten button nie powinien byc widoczny -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Konto<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu"> <!-- dziwny atrybuty rozwijanego menu, nie rozumiem ale tak bootstrap nakazuje-->
+            <li><a href="#">Wyloguj</a></li> <!-- Mozemy sie wylogowac, hurra. Tego nie powinno byc widac dla niezalogowanych uzytkownikow-->
+          	</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+	</div> <!-- KONIEC GORNEGO MENU-->
+
+<div class="logo"> 
+	<span style= "width: 100%; height:220px;"> 
+		<img src="zasoby/logo.jpg"/>
+	</span> <!-- span mi nie skaluje tego logo, a inne metody W3C odrzuca-->
+</div>
+
+
+<div class="row"> 
+	<div class="navbar navbar-default" role="navigation">
+	<span style="font-family: serif; margin-left: 400px;"> ---- ARTYKUŁY ---- </span>
+
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-lg-4 col-xs-4"> <!--PIERWSZA KOLUMNA WPISOW-->
+		 
+		<div class="panel panel-default">
+  			 <div class="panel-body">
+    			<img src="zasoby/imgArt.jpg" />
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag1</a>
+    			 </button>
+    			<button type="button" class="btn btn-default">
+    			 	<a href="#">Tag2</a>
+    			 </button>
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag3</a>
+    			 </button>
+  			</div> 
+		</div>
+			<div class="panel panel-default">
+  			 <div class="panel-body">
+    			<img src="zasoby/imgArt.jpg" />
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag1</a>
+    			 </button>
+    			<button type="button" class="btn btn-default">
+    			 	<a href="#">Tag2</a>
+    			 </button>
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag3</a>
+    			 </button>
+  			</div> 
+		  </div>
+
+      <div class="panel panel-default">
+         <div class="panel-body">
+          <img src="zasoby/imgArt.jpg" />
+           <button type="button" class="btn btn-default">
+            <a href="#">Tag1</a>
+           </button>
+          <button type="button" class="btn btn-default">
+            <a href="#">Tag2</a>
+           </button>
+           <button type="button" class="btn btn-default">
+            <a href="#">Tag3</a>
+           </button>
+        </div> 
+      </div>
+
+	</div>
+	<div class="col-lg-4 col-xs-4"> <!--DRUGA KOLUMNA WPISOW-->
+
+	<div class="navbar navbar-default" role="navigation"> 
+		 <div class="container-fluid">
+		
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pazdziernik 2017<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu"> <!-- dziwny atrybuty rozwijanego menu-->
+            <li><a href="#">Wrzesien</a></li> 
+          	</ul>
+		 </div>
+	</div>
+
+    <div class="panel panel-default">
+         <div class="panel-body">
+          <img src="zasoby/imgArt.jpg" />
+           <button type="button" class="btn btn-default">
+            <a href="#">Tag1</a>
+           </button>
+          <button type="button" class="btn btn-default">
+            <a href="#">Tag2</a>
+           </button>
+           <button type="button" class="btn btn-default">
+            <a href="#">Tag3</a>
+           </button>
+        </div> 
+      </div>
+
+		<div class="panel panel-default">
+  			 <div class="panel-body">
+    			<img src="zasoby/imgArt.jpg" />
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag1</a>
+    			 </button>
+    			<button type="button" class="btn btn-default">
+    			 	<a href="#">Tag2</a>
+    			 </button>
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag3</a>
+    			 </button>
+  			</div> 
+		</div>
+
+		<div class="panel panel-default">
+  			 <div class="panel-body">
+    			<img src="zasoby/imgArt.jpg" />
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag1</a>
+    			 </button>
+    			<button type="button" class="btn btn-default">
+    			 	<a href="#">Tag2</a>
+    			 </button>
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag3</a>
+    			 </button>
+  			</div> 
+		</div>
+
+	</div>
+	<div class="col-lg-4 col-xs-4"> <!--TRZECIA KOLUMNA WPISOW-->
+
+		<div class="panel panel-default">
+         <div class="panel-body">
+          <img src="zasoby/imgArt.jpg" />
+           <button type="button" class="btn btn-default">
+            <a href="#">Tag1</a>
+           </button>
+          <button type="button" class="btn btn-default">
+            <a href="#">Tag2</a>
+           </button>
+           <button type="button" class="btn btn-default">
+            <a href="#">Tag3</a>
+           </button>
+        </div> 
+      </div>
+
+    <div class="panel panel-default">
+  			 <div class="panel-body">
+    			<img src="zasoby/imgArt.jpg" />
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag1</a>
+    			 </button>
+    			<button type="button" class="btn btn-default">
+    			 	<a href="#">Tag2</a>
+    			 </button>
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag3</a>
+    			 </button>
+  			</div> 
+		</div>
+
+			<div class="panel panel-default">
+  			 <div class="panel-body">
+    			<img src="zasoby/imgArt.jpg" />
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag1</a>
+    			 </button>
+    			<button type="button" class="btn btn-default">
+    			 	<a href="#">Tag2</a>
+    			 </button>
+    			 <button type="button" class="btn btn-default">
+    			 	<a href="#">Tag3</a>
+    			 </button>
+  			</div> 
+			</div>
+
+
+	</div>
+</div> <!-- koniec row-->
+
+<div class="navbar navbar-default footer">
+	<ul class="pagination">
+  		<li><a href="#">&laquo;</a></li>
+  		<li><a href="#">1</a></li>
+  		<li><a href="#">2</a></li>
+  		<li><a href="#">3</a></li>
+  		<li><a href="#">4</a></li>
+  		<li><a href="#">5</a></li>
+  		<li><a href="#">&raquo;</a></li>
+	</ul>
+</div>
+     
+</div> <!-- KONIEC KONTENERA-->
+</body>
+</html>
